@@ -1,11 +1,15 @@
 #section-nav {
+  width: 100vw;
   background-color: yellow;
+  position: fixed;
+  top: 0;
+  height: 60px;
 }
 
-#navbar {
-  width: 100vw;
-  position: sticky;
-  background-color: green;
+#section-header,
+#section-main,
+#section-footer {
+  padding-top: 60px;
 }
 
 #section-header {

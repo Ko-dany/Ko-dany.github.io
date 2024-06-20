@@ -8,13 +8,13 @@ function App() {
         <Nav />
       </nav>
       <header id="section-header">
-        <a id="header">HEADER</a>
+        <a className="title-section">HEADER</a>
       </header>
       <main id="section-main">
-        <a id="main">MAIN</a>
+        <a className="title-section">MAIN</a>
       </main>
       <footer id="section-footer">
-        <a id="footer">FOOTER</a>
+        <a className="title-section">FOOTER</a>
       </footer>
     </div>
   );

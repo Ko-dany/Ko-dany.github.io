@@ -1,11 +1,17 @@
+$nav-height: 60px;
+
 #section-nav {
+  width: 100vw;
   background-color: yellow;
+  position: fixed;
+  top: 0;
+  height: $nav-height;
 }
 
-#navbar {
-  width: 100vw;
-  position: sticky;
-  background-color: green;
+#section-header,
+#section-main,
+#section-footer {
+  padding-top: $nav-height;
 }
 
 #section-header {
