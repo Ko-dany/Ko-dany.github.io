@@ -1,0 +1,27 @@
+#section-nav {
+  background-color: yellow;
+}
+
+#navbar {
+  width: 100vw;
+  position: sticky;
+  background-color: green;
+}
+
+#section-header {
+  max-width: 100vw;
+  height: 200vh;
+  background-color: blue;
+}
+
+#section-main {
+  max-width: 100vw;
+  height: 400vh;
+  background-color: red;
+}
+
+#section-footer {
+  max-width: 100vw;
+  height: 200vh;
+  background-color: green;
+}

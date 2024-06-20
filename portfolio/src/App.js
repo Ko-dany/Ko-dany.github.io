@@ -1,7 +1,21 @@
+import Nav from "./components/nav";
+import "./css/App.css";
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div>
+      <nav id="section-nav">
+        <Nav />
+      </nav>
+      <header id="section-header">
+        <a id="header">HEADER</a>
+      </header>
+      <main id="section-main">
+        <a id="main">MAIN</a>
+      </main>
+      <footer id="section-footer">
+        <a id="footer">FOOTER</a>
+      </footer>
     </div>
   );
 }
