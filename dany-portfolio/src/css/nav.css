@@ -34,7 +34,7 @@ nav {
   display: flex;
 }
 
-.nav_menu .nav_list {
+.nav_menu .nav_list_item {
   list-style: none;
   position: relative;
 }

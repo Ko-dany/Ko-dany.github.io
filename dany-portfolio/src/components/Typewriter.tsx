@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import "../../css/typewriter.css";
+import "../css/typewriter.css";
 
 const titles: string[] = [
   "DAHYUN KO",

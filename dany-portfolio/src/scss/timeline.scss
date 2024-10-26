@@ -1,0 +1,20 @@
+@use "./variables.scss" as *;
+
+.timeline_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .timeline_item {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .timeline_container {
+    flex-direction: row;
+    .timeline_item {
+      width: 55%;
+    }
+  }
+}

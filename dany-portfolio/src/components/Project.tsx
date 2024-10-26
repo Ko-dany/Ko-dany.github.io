@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import "../../css/project.css";
+import "../css/project.css";
 
 const Project: React.FC = () => {
   return (

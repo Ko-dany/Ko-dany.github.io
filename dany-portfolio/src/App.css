@@ -3,6 +3,6 @@
 }
 
 .section {
-  height: 100vh;
+  min-height: 100vh;
   padding: 8em 0 5em 0;
 }

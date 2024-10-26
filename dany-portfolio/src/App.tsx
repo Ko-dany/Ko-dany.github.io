@@ -1,10 +1,10 @@
 import "./App.css";
-import Nav from "./components/Nav";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Project from "./components/Project";
-import Skill from "./components/Skill";
-import Footer from "./components/Footer";
+import Nav from "./components/Nav.tsx";
+import Intro from "./components/Intro.tsx";
+import About from "./components/About.tsx";
+import Project from "./components/Project.tsx";
+import Skill from "./components/Skill.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
   return (

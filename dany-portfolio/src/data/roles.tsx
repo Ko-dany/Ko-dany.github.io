@@ -1,0 +1,1 @@
+export default ["DEVELOPER", "COLLABORATOR", "THINKER", "LEARNER", "ACHIEVER"];

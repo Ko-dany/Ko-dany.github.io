@@ -50,7 +50,7 @@ body {
   margin-left: 10px;
 }
 .btn:hover {
-  background: $second-color;
+  background: $text-color-second;
   color: $color-white;
 }
 
@@ -84,4 +84,18 @@ h3 {
   font-weight: 600;
   color: $text-color-second;
   margin-bottom: 15px;
+}
+
+.company_link {
+  color: $job-point-third !important;
+  font-weight: 600;
+}
+
+a:hover {
+  cursor: pointer;
+  color: $point-color !important;
+}
+
+.animate__animated {
+  --animate-duration: 2s;
 }

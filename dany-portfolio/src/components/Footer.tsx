@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import "../../css/footer.css";
+import "../css/footer.css";
 
 const Footer: React.FC = () => {
   return (
@@ -14,6 +14,9 @@ const Footer: React.FC = () => {
           </li>
           <li className="footer_menu_list">
             <a href="#projects">Projects</a>
+          </li>
+          <li className="footer_menu_list">
+            <a href="#skills">Skills</a>
           </li>
         </ul>
       </div>

@@ -56,7 +56,7 @@ body {
 }
 
 .btn:hover {
-  background: rgb(0, 201, 255);
+  background: rgb(68, 68, 68);
   color: rgb(255, 255, 255);
 }
 
@@ -94,4 +94,18 @@ h3 {
   font-weight: 600;
   color: rgb(68, 68, 68);
   margin-bottom: 15px;
+}
+
+.company_link {
+  color: #01474d !important;
+  font-weight: 600;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(110, 87, 224) !important;
+}
+
+.animate__animated {
+  --animate-duration: 2s;
 }

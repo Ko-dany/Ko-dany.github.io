@@ -1,4 +1,4 @@
-import "../../css/skills.css";
+import "../css/skills.css";
 
 const Skill: React.FC = () => {
   return (

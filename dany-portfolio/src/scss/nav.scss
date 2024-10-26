@@ -18,14 +18,14 @@ nav {
 .nav_name {
   font-size: 30px;
   font-weight: 600;
-  color: $text-color-third;
+  color: $text-point-third;
 }
 
 .nav_menu,
 .nav_menu_list {
   display: flex;
 }
-.nav_menu .nav_list {
+.nav_menu .nav_list_item {
   list-style: none;
   position: relative;
 }

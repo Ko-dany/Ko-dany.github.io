@@ -1,0 +1,73 @@
+@use "./variables.scss" as *;
+
+.timeline_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-left: 1px solid $color-gray;
+  .timeline_list_item {
+    margin: 0 0 2.5rem 2rem;
+  }
+  .timeline_circle {
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: $color-white;
+    border-radius: 50%;
+    margin-top: 0.375rem;
+    left: -0.34rem;
+    border: 1px solid $color-gray;
+  }
+  .timeline_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.875rem;
+    .timeline_sub_title {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .timeline_title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $text-point-third;
+        margin-block: auto;
+        a {
+          display: inline;
+        }
+      }
+      .timeline_company {
+        font-size: 1rem;
+      }
+      .timeline_duration {
+        margin-block: auto;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1;
+        color: $text-point-third;
+      }
+    }
+    .timeline_sub_title > div {
+      display: flex;
+      flex-direction: column;
+    }
+    .timeline_des {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      font-weight: 400;
+      color: $text-color-second;
+      // text-align: justify;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .timeline_list {
+    flex-direction: row;
+  }
+}

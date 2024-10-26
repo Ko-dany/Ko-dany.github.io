@@ -1,12 +1,8 @@
 @use "./variables.scss" as *;
 
 .skills_list {
-  height: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 10rem;
   .skills_item {
-    text-align: center;
     img {
       margin: 5px;
     }
