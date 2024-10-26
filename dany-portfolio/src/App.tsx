@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Project from "./components/Project";
+import Skill from "./components/Skill";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Intro />
         <About />
         <Project />
+        <Skill />
       </main>
       <footer>
         <Footer />

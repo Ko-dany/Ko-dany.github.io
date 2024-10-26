@@ -38,10 +38,10 @@ nav {
 }
 .nav_menu_btn {
   display: none;
-}
-.nav_menu_btn .icon {
-  font-size: 28px;
-  cursor: pointer;
+  .icon {
+    font-size: 28px;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 900px) {

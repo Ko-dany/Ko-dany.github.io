@@ -9,21 +9,17 @@ footer {
   background: #f8f8f8;
   padding-block: 40px 60px;
 }
-.top_footer p {
-  font-size: 25px;
-  font-weight: 600;
-}
 .middle_footer .footer_menu {
   display: flex;
 }
 .footer_menu_list {
   list-style: none;
-}
-.footer_menu_list a {
-  text-decoration: none;
-  color: var(--text-color-second);
-  font-weight: 500;
-  margin-inline: 20px;
+  a {
+    text-decoration: none;
+    color: var(--text-color-second);
+    font-weight: 500;
+    margin-inline: 20px;
+  }
 }
 .footer_social_icons {
   display: flex;

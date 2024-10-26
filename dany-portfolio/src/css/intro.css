@@ -8,7 +8,6 @@
   min-height: 700px;
 }
 
-/* ----- FEATURED TEXT BOX ----- */
 .intro_text {
   position: relative;
   display: -webkit-box;
@@ -24,16 +23,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
-  padding-left: 20px;
-}
-
-.intro_text_card span {
-  background: rgb(192, 166, 49);
-  color: rgb(255, 255, 255);
-  padding: 3px 8px;
-  font-size: 12px;
-  border-radius: 5px;
+  width: 60%;
 }
 
 .intro_name {
@@ -44,37 +34,19 @@
 }
 
 .typed_text {
-  text-transform: capitalize;
   color: rgb(30, 159, 171);
 }
 
 .intro_text_info {
   font-size: 15px;
-  margin-bottom: 30px;
   color: rgb(68, 68, 68);
-}
-
-.itro_text_btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
-}
-
-.itro_text_btn > .intro_btn {
-  background: rgb(110, 87, 224);
-  color: rgb(255, 255, 255);
-}
-
-.itro_text_btn > .intro_btn:hover {
-  background: rgb(40, 91, 212);
 }
 
 .social_icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5em;
+  margin-top: 2em;
   gap: 30px;
 }
 
@@ -88,15 +60,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
-
-.intro_icon:hover {
+.intro_icon :hover {
   color: rgb(110, 87, 224);
 }
 
@@ -110,7 +81,7 @@
   -ms-flex-line-pack: center;
       align-content: center;
   min-height: 80vh;
-  width: 50%;
+  width: 40%;
 }
 
 .image {
@@ -119,10 +90,7 @@
   height: 380px;
   border-radius: 50%;
   overflow: hidden;
-  -webkit-animation: imgFloat 7s ease-in-out infinite;
-          animation: imgFloat 7s ease-in-out infinite;
 }
-
 .image img {
   width: 380px;
   height: 380px;

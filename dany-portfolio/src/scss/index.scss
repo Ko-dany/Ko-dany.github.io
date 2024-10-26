@@ -5,10 +5,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  a:link,
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
 }
 
 /* Scroll bars */
@@ -47,7 +56,7 @@ html {
 
 /* Icons */
 .icon {
-  font-size: 16px;
+  font-size: 21px;
 }
 
 body {
@@ -64,7 +73,7 @@ body {
 }
 .top_header h1 {
   font-weight: 600;
-  color: var(--text-color-second);
+  color: $text-color-second;
   margin-bottom: 10px;
 }
 .top_header span {
@@ -73,6 +82,6 @@ body {
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: var(--text-color-second);
+  color: $text-color-second;
   margin-bottom: 15px;
 }

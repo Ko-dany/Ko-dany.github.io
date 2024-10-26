@@ -1,5 +1,5 @@
-// import { Icon } from "@iconify/react";
-import "../../css/about.css";
+import { Icon } from "@iconify/react";
+import "../../css/project.css";
 
 const About: React.FC = () => {
   return (
@@ -7,59 +7,21 @@ const About: React.FC = () => {
       <div className="top_header">
         <h1>About Me</h1>
       </div>
-      <div className="row">
-        <div className="col">
-          <div className="about_info">
-            <h3>My introduction</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate, quidem eaque, voluptas similique culpa dolore facere
-              laboriosam cum sed enim inventore blanditiis veniam. Velit veniam
-              aliquid exercitationem laudantium atque enim?
-            </p>
-            {/* <div className="about_btn">
-              <button className="btn">
-                Download CV <Icon icon="uil:import" className="icon" />
-              </button>
-            </div> */}
-          </div>
+      <div className="project_container">
+        <div className="project_card">
+          <Icon icon="uil:briefcase-alt" className="icon" />
+          <h3>Work Experience 1</h3>
+          <label>Short Explanation 1</label>
         </div>
-        <div className="col">
-          <div className="skills_box">
-            <div className="skills_header">
-              <h3>Frontend</h3>
-            </div>
-            <div className="skills_list">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>Bootstrap</span>
-              <span>JavaScript</span>
-              <span>Vue</span>
-              <span>React</span>
-              <span>Angular</span>
-            </div>
-          </div>
-          <div className="skills_box">
-            <div className="skills_header">
-              <h3>Backend</h3>
-            </div>
-            <div className="skills_list">
-              <span>PHP</span>
-              <span>JAVA</span>
-              <span>Python</span>
-              <span>C++</span>
-            </div>
-          </div>
-          <div className="skills_box">
-            <div className="skills_header">
-              <h3>Database</h3>
-            </div>
-            <div className="skills_list">
-              <span>MySQL</span>
-              <span>PostgreSQL</span>
-              <span>MongoDB</span>
-            </div>
-          </div>
+        <div className="project_card">
+          <Icon icon="uil:users-alt" className="icon" />
+          <h3>Work Experience 2</h3>
+          <label>Short Explanation 2</label>
+        </div>
+        <div className="project_card">
+          <Icon icon="uil:award-alt" className="icon" />
+          <h3>Work Experience 3</h3>
+          <label>Short Explanation 3</label>
         </div>
       </div>
     </section>

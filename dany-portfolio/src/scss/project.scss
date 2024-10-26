@@ -19,16 +19,17 @@
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px $first-shadow-color;
   overflow: hidden;
+  > .icon {
+    font-size: 50px;
+    color: #00b5e7;
+    margin-bottom: 25px;
+  }
+  label {
+    font-size: 15px;
+    color: #777;
+  }
 }
-.project_card > .icon {
-  font-size: 50px;
-  color: #00b5e7;
-  margin-bottom: 25px;
-}
-.project_card label {
-  font-size: 15px;
-  color: #777;
-}
+
 .project_card::after,
 .contact-info::after {
   content: "";
