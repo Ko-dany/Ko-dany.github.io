@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.about_info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-block: 70px 70px;
+  padding-inline: 20px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.about_info p {
+  text-align: center;
+  font-size: 15px;
+  color: #777;
+}
+
+.skills_box {
+  margin: 10px;
+}
+
+.skills_header {
+  margin-bottom: 30px;
+}
+
+.skills_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5px;
+}
+
+.skills_list span {
+  font-size: 14px;
+  background: rgb(110, 87, 224);
+  color: rgb(255, 255, 255);
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 50px;
+  }
+  .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .about_info {
+    width: 100%;
+  }
+}

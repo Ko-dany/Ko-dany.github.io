@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.project_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project_card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.project_card > .icon {
+  font-size: 50px;
+  color: #00b5e7;
+  margin-bottom: 25px;
+}
+
+.project_card label {
+  font-size: 15px;
+  color: #777;
+}
+
+.project_card::after,
+.contact-info::after {
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  background: rgb(0, 201, 255);
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 1;
+}
+
+.project_card:hover.project_card::after,
+.contact-info:hover.contact-info::after {
+  bottom: 0;
+}
+
+.project_card:hover.project_card .icon,
+.project_card:hover.project_card > h3,
+.project_card:hover.project_card > label {
+  color: rgb(255, 255, 255);
+  z-index: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  .project_card {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .project_card {
+    width: 100%;
+  }
+}

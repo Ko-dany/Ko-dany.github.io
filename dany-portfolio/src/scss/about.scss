@@ -1,0 +1,76 @@
+@use "./variables.scss" as *;
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+.col {
+  display: flex;
+  width: 50%;
+}
+
+.about_info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 70px 70px;
+  padding-inline: 20px;
+  width: 100%;
+  background: $color-white;
+  box-shadow: 1px 8px 10px 2px $first-shadow-color;
+  border-radius: 20px;
+}
+.about_info p {
+  text-align: center;
+  font-size: 15px;
+  color: #777;
+}
+// .about_btn button {
+//   position: absolute;
+//   right: 20px;
+//   bottom: 20px;
+//   background: $first-color;
+//   color: $color-white;
+//   border-radius: 30px;
+// }
+// .about_btn button:hover {
+//   background: $first-color-hover;
+// }
+.skills_box {
+  margin: 10px;
+}
+.skills_header {
+  margin-bottom: 30px;
+}
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.skills_list span {
+  font-size: 14px;
+  background: $first-color;
+  color: $color-white;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  .col {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .about_info {
+    width: 100%;
+  }
+}
