@@ -6,6 +6,7 @@ const About: React.FC = () => {
     <section className="section" id="about">
       <div className="top_header">
         <h1>About Me</h1>
+        <p>Click the company name to visit the website.</p>
       </div>
       <Timeline />
     </section>

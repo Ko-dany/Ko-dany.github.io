@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import "../css/nav.css";
 import { useState } from "react";
+import resume from "../../public/assets/Dahyun_Ko_Resume.pdf";
 
 const Nav: React.FC = () => {
   const [isMouseOver, SetIsMouseOver] = useState(false);
@@ -20,7 +21,7 @@ const Nav: React.FC = () => {
             onMouseOver={onMouseOverHandler}
             onMouseOut={onMouseOverHandler}
           >
-            {isMouseOver ? "Dahyun Ko" : "Dany Ko"}
+            {isMouseOver ? "고 다현" : "Dany Ko"}
           </a>
         </p>
       </div>
@@ -43,9 +44,10 @@ const Nav: React.FC = () => {
           </li>
           <li className="nav_list_item">
             <a
-              href="../assets/Dahyun_Ko_Resume.pdf"
-              download="Dahyun_Ko_Resume.pdf"
               className="nav_link"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume <Icon icon="uil:file-alt" className="icon" />
             </a>

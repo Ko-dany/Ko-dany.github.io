@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.project_card {
+  padding: 1.5rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  min-height: 300px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.project_card > a {
+  width: 100%;
+  height: 50%;
+}
+.project_card .project_image_container {
+  width: 100%;
+  height: 100%;
+}
+.project_card .project_image_container > img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 3s ease;
+  transition: -webkit-transform 3s ease;
+  transition: transform 3s ease;
+  transition: transform 3s ease, -webkit-transform 3s ease;
+}
+.project_card .project_image_container > img:hover {
+  scale: 1.2;
+}
+.project_card .project_description {
+  height: 40%;
+}
+.project_card .project_description .project_title {
+  min-height: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.project_card .project_description .labels {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.project_card .project_description .labels label {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding: 3px 5px;
+  margin: 2px;
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  color: rgb(31, 159, 171);
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 900px) {
+  .project_card {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .project_card {
+    width: 100%;
+  }
+}

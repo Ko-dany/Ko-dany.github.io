@@ -73,8 +73,8 @@
   .intro_text {
     padding: 0;
   }
-  .image,
-  .image img {
+  .intro_image,
+  .intro_image img {
     width: 320px;
     height: 320px;
   }
@@ -96,15 +96,15 @@
   .social_icons {
     margin-top: 2em;
   }
-  .intro_image {
+  .intro_image_conatiner {
     order: 1;
     justify-content: center;
     min-height: 150px;
     width: 100%;
     margin-top: 65px;
   }
-  .image,
-  .image img {
+  .intro_image,
+  .intro_image img {
     width: 150px;
     height: 150px;
   }

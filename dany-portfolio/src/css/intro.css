@@ -34,7 +34,7 @@
 }
 
 .typed_text {
-  color: rgb(30, 159, 171);
+  color: rgb(31, 159, 171);
 }
 
 .intro_text_info {
@@ -103,8 +103,8 @@
   .intro_text {
     padding: 0;
   }
-  .image,
-  .image img {
+  .intro_image,
+  .intro_image img {
     width: 320px;
     height: 320px;
   }
@@ -135,7 +135,7 @@
   .social_icons {
     margin-top: 2em;
   }
-  .intro_image {
+  .intro_image_conatiner {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -146,8 +146,8 @@
     width: 100%;
     margin-top: 65px;
   }
-  .image,
-  .image img {
+  .intro_image,
+  .intro_image img {
     width: 150px;
     height: 150px;
   }
