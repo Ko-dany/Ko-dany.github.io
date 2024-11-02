@@ -99,6 +99,11 @@ h3 {
 .company_link {
   color: #01474d !important;
   font-weight: 600;
+  border-bottom: #01474d dashed 2px;
+}
+
+.company_link:hover {
+  border-bottom: rgb(110, 87, 224) dashed 2px !important;
 }
 
 a:hover {

@@ -85,6 +85,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    text-align: center;
   }
   .intro_text {
     width: 100%;
@@ -95,6 +96,7 @@
   }
   .social_icons {
     margin-top: 2em;
+    justify-content: center;
   }
   .intro_image_conatiner {
     order: 1;

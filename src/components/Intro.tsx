@@ -29,17 +29,17 @@ const Intro: React.FC = () => {
         <div className="intro_name">
           <p>Hi! I'm Dany,</p>
           <p>
-            I'm <span className="typed_text" ref={typewriter}></span>
+            I'm a <span className="typed_text" ref={typewriter}></span>
           </p>
         </div>
         <div className="intro_text_info">
           <ul>
-            <li>Conestoga College in Waterloo, ON, Canada</li>
+            <li>Conestoga College, Waterloo, ON, Canada</li>
             <li>
-              Co-op available from <span>Jan/2024 - Aug/2025</span>
+              Available for co-op from <span>Jan 2024 to Aug 2025</span>
             </li>
             <li>
-              Currently work in DevOps team at{" "}
+              Currently working on the DevOps team at{" "}
               <a
                 className="company_link"
                 href="https://www.linkedin.com/company/varlab-virtual-and-augmented-reality-lab/posts/?feedView=all"

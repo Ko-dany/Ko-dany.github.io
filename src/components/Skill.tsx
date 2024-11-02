@@ -5,6 +5,8 @@ const Skill: React.FC = () => {
     <section className="section" id="skills">
       <div className="top_header">
         <h1>Technical Skills</h1>
+        <p>Technologies I love to play with.</p>
+
       </div>
       <div className="skills_list">
         <div className="skills_item" style={{ textAlign: "center" }}>

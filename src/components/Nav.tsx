@@ -27,9 +27,14 @@ const Nav: React.FC = () => {
       </div>
       <div className="nav_menu" id="navMenu">
         <ul className="nav_menu_list">
+        <li className="nav_list_item">
+            <a href="#intro" className="nav_link">
+            Home
+            </a>
+          </li>
           <li className="nav_list_item">
             <a href="#about" className="nav_link">
-              About
+            Experience
             </a>
           </li>
           <li className="nav_list_item">

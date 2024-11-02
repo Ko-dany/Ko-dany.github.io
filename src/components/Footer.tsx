@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             <a href="#intro">Home</a>
           </li>
           <li className="footer_menu_list">
-            <a href="#about">About</a>
+            <a href="#about">Exeprience</a>
           </li>
           <li className="footer_menu_list">
             <a href="#projects">Projects</a>

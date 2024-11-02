@@ -95,4 +95,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .timeline_duration {
+    display: none !important;
+  }
 }
