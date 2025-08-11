@@ -33,23 +33,29 @@ const Intro: React.FC = () => {
           </p>
         </div>
         <div className="intro_text_info">
-          <ul>
-            <li>Conestoga College, Waterloo, ON, Canada</li>
+          <ul style={{ listStyleType: "none" }}>
+            <li>📍 Waterloo / Kitchener, ON, Canada</li>
             <li>
-              Available for co-op from <span>Jan 2024 to Aug 2025</span>
-            </li>
-            <li>
-              Currently working on the DevOps team at{" "}
+              💼 Software Engineer Co-op at{" "}
               <a
                 className="company_link"
-                href="https://www.linkedin.com/company/varlab-virtual-and-augmented-reality-lab/posts/?feedView=all"
+                href="https://www.acceldata.io/about-us"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                VARLab
+                Acceldata
               </a>
             </li>
-            <li>Team collaboration and sustainable solutions</li>
+            <li>
+              💻 Experienced in{" "}
+              <span>
+                DevOps, Test Automation, and Apache open-source projects.
+              </span>
+            </li>
+            <li>
+              🚀 Focused on team collaboration and building sustainable
+              solutions
+            </li>
           </ul>
         </div>
         <div className="social_icons">
