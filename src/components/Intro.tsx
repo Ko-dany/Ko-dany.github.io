@@ -36,7 +36,19 @@ const Intro: React.FC = () => {
           <ul style={{ listStyleType: "none" }}>
             <li>📍 Waterloo / Kitchener, ON, Canada</li>
             <li>
-              💼 Software Engineer Co-op at{" "}
+              🚀 3rd-Year in{" "}
+              <a
+                className="company_link"
+                href="https://www.conestogac.on.ca/fulltime/computer-programming-and-analysis/description?id=30948"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Computer Programming & Analysis
+              </a>{" "}
+              student at Conestoga College
+            </li>
+            <li>
+              💼 Software Engineer at{" "}
               <a
                 className="company_link"
                 href="https://www.acceldata.io/about-us"
@@ -51,10 +63,6 @@ const Intro: React.FC = () => {
               <span>
                 DevOps, Test Automation, and Apache open-source projects.
               </span>
-            </li>
-            <li>
-              🚀 Focused on team collaboration and building sustainable
-              solutions
             </li>
           </ul>
         </div>
