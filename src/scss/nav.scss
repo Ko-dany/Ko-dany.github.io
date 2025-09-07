@@ -12,13 +12,17 @@ nav {
   transition: 0.3s;
   z-index: 100;
 }
-.nav_logo {
-  position: relative;
-}
+
 .nav_name {
+  position: relative;
   font-size: 30px;
   font-weight: 600;
   color: $text-point-third;
+}
+
+.nav_name_content {
+  display: inline-block;
+  min-width: 126px;
 }
 
 .nav_menu,
