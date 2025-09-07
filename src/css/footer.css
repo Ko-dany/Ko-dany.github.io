@@ -14,7 +14,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 30px;
-  background: #f8f8f8;
   padding-block: 40px 60px;
 }
 
@@ -31,7 +30,7 @@ footer {
   text-decoration: none;
   color: var(--text-color-second);
   font-weight: 500;
-  margin-inline: 20px;
+  margin-inline: 30px;
 }
 
 .footer_social_icons {
@@ -44,4 +43,11 @@ footer {
 .bottom_footer {
   font-size: 14px;
   margin-top: 10px;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .footer_menu_list > a {
+    margin-inline: 10px;
+  }
 }

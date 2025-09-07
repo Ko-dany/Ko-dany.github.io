@@ -18,7 +18,7 @@
   width: 80%;
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 768px) {
   .timeline_container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -26,6 +26,6 @@
             flex-direction: row;
   }
   .timeline_container .timeline_item {
-    width: 55%;
+    width: 90%;
   }
 }

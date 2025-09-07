@@ -66,7 +66,7 @@
 }
 .timeline_list .timeline_content .timeline_sub_title .timeline_duration {
   margin-block: auto;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   font-weight: 400;
   line-height: 1;
   color: rgb(31, 159, 171);
@@ -88,12 +88,32 @@
   color: rgb(68, 68, 68);
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 480px) {
   .timeline_list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .timeline_list .timeline_content .timeline_title {
+    font-size: 1rem !important;
+  }
+  .timeline_list .timeline_company {
+    font-size: 0.8rem !important;
+  }
+  .timeline_list .timeline_duration {
+    display: none !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .timeline_list {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .timeline_list .timeline_content .timeline_title {
+    font-size: 1.2rem !important;
   }
   .timeline_duration {
     display: none !important;

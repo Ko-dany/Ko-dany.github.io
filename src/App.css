@@ -1,8 +1,32 @@
-.wrapper {
-  padding-inline: 10vw;
-}
-
 .section {
   min-height: 100vh;
   padding: 8em 0 5em 0;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .wrapper {
+    padding-inline: 5vw;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  .wrapper {
+    padding-inline: 10vw;
+  }
+}
+
+/* Large monitor */
+@media (min-width: 1440px) {
+  .wrapper {
+    padding-inline: 20vw;
+  }
+}
+
+/* Extra large monitor */
+@media (min-width: 1920px) {
+  .wrapper {
+    padding-inline: 25vw;
+  }
 }

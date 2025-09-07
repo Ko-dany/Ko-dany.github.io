@@ -25,9 +25,9 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
           <div className="timeline_sub_title">
             <div>
               <span className="timeline_title">{title}</span>
-              <div>
+              <div className="timeline_company">
                 <a
-                  className="company_link timeline_company "
+                  className="company_link "
                   href={companyUrl}
                   target="_blank"
                   rel="noopener noreferrer"

@@ -8,7 +8,6 @@ nav {
   height: 90px;
   line-height: 90px;
   background: $body-color;
-  padding-inline: 9vw;
   transition: 0.3s;
   z-index: 100;
 }
@@ -37,8 +36,8 @@ nav {
   text-decoration: none;
   color: $text-color-second;
   font-weight: 500;
-  padding-inline: 15px;
-  margin-inline: 20px;
+  padding-left: 10px;
+  margin-left: 10px;
 }
 .nav_menu_btn {
   display: none;
@@ -48,7 +47,11 @@ nav {
   }
 }
 
-@media only screen and (max-width: 900px) {
+/* Mobile */
+@media (max-width: 480px) {
+  nav {
+    padding-inline: 5vw;
+  }
   .nav_button {
     display: none;
   }
@@ -76,5 +79,30 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  nav {
+    padding-inline: 10vw;
+  }
+}
+
+/* Large monitor */
+@media (min-width: 1440px) {
+  nav {
+    padding-inline: 20vw;
+  }
+  .nav_link {
+    padding-left: 15px;
+    margin-left: 20px;
+  }
+}
+
+/* Extra large monitor */
+@media (min-width: 1920px) {
+  nav {
+    padding-inline: 25vw;
   }
 }

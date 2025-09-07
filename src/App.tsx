@@ -17,10 +17,8 @@ function App() {
         <About />
         <Project />
         <Skill />
-      </main>
-      <footer>
         <Footer />
-      </footer>
+      </main>
     </>
   );
 }

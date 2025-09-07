@@ -16,7 +16,7 @@
   width: 60%;
 }
 .intro_name {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
   color: $text-color-second;
   margin-block: 20px;
@@ -30,9 +30,6 @@
   color: $text-color-second;
   ul {
     list-style: inside;
-    li > span {
-      font-weight: 600;
-    }
   }
 }
 .social_icons {
@@ -69,18 +66,16 @@
     object-fit: cover;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .intro_text {
-    padding: 0;
-  }
-  .intro_image,
-  .intro_image img {
-    width: 320px;
-    height: 320px;
+
+/* Mobile */
+@media (max-width: 480px) {
+  .intro_name {
+    font-size: 24px;
   }
 }
 
-@media only screen and (max-width: 900px) {
+/* Tablet */
+@media (max-width: 768px) {
   .intro_box {
     flex-direction: column;
     justify-content: center;
@@ -112,8 +107,14 @@
   }
 }
 
-@media only screen and (max-width: 540px) {
-  .intro_name {
-    font-size: 40px;
+/* Large monitor */
+@media (min-width: 1440px) {
+  .intro_text {
+    padding: 0;
+  }
+  .intro_image,
+  .intro_image img {
+    width: 320px;
+    height: 320px;
   }
 }
