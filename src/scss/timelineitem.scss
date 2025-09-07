@@ -22,7 +22,7 @@
   .timeline_content {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
@@ -57,13 +57,39 @@
       flex-direction: column;
     }
     .timeline_des {
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      font-size: 1rem;
+      // margin-top: 0.5rem;
+      // margin-bottom: 0.5rem;
+      font-size: 0.875rem;
       font-weight: 400;
       color: $text-color-second;
       // text-align: justify;
     }
+  }
+}
+
+.project_image_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-block: 15px;
+  }
+}
+
+.project_des {
+  width: 100%;
+}
+
+.project_links {
+  display: flex;
+  justify-content: space-between;
+  .project_link {
+    margin-right: 10px;
   }
 }
 

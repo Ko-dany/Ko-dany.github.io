@@ -1,6 +1,6 @@
-import "../css/project.css";
-import ProjectItem from "./ProjectItem";
 import projects from "../data/projects";
+import TimelineItem from "./TimelineItem";
+import "../css/timeline.css";
 
 const Project: React.FC = () => {
   return (
@@ -10,19 +10,25 @@ const Project: React.FC = () => {
         {/* <p>Click the image to visit the GitHub repository.</p> */}
         <p>This section is currently being fixed</p>
       </div>
-      {/* <div className="project_container">
-        {projects.map((project, index) => {
-          return (
-            <ProjectItem
-              key={index}
-              title={project.title}
-              projectUrl={project.projectUrl}
-              skills={project.skills}
-              projectImg={project.projectImg}
-            />
-          );
-        })}
-      </div> */}
+      <div className="timeline_container">
+        <div className="timeline_item">
+          {projects.map((project, index) => {
+            return (
+              <TimelineItem
+                isExperience={false}
+                key={index}
+                title={project.title}
+                duration={project.duration}
+                description={project.description}
+                projectRepoUrl={project.projectRepoUrl}
+                projectDemoUrl={project.projectDemoUrl}
+                skills={project.skills}
+                projectImg={project.projectImg}
+              />
+            );
+          })}
+        </div>
+      </div>
     </section>
   );
 };

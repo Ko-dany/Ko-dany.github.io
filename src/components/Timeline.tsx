@@ -15,7 +15,6 @@ const Timeline: React.FC = () => {
               companyUrl={item.companyUrl}
               location={item.location}
               duration={item.duration}
-              description={item.description}
             />
           );
         })}

@@ -30,7 +30,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.5rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -81,11 +81,45 @@
           flex-direction: column;
 }
 .timeline_list .timeline_content .timeline_des {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  color: rgb(68, 68, 68);
+  color: rgb(110, 110, 110);
+}
+
+.project_image_container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.project_image_container > img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-block: 15px;
+}
+
+.project_des {
+  width: 100%;
+}
+
+.project_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.project_links .project_link {
+  margin-right: 10px;
 }
 
 @media (max-width: 480px) {
