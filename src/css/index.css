@@ -56,7 +56,7 @@ body {
 }
 
 .btn:hover {
-  background: rgb(68, 68, 68);
+  background: rgb(110, 110, 110);
   color: rgb(255, 255, 255);
 }
 
@@ -81,7 +81,7 @@ body {
 
 .top_header h1 {
   font-weight: 600;
-  color: rgb(68, 68, 68);
+  color: rgb(110, 110, 110);
   margin-bottom: 10px;
 }
 
@@ -92,7 +92,7 @@ body {
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: rgb(68, 68, 68);
+  color: rgb(110, 110, 110);
   margin-bottom: 15px;
 }
 

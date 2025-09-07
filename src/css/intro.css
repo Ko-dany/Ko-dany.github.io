@@ -29,7 +29,7 @@
 .intro_name {
   font-size: 45px;
   font-weight: 600;
-  color: rgb(68, 68, 68);
+  color: rgb(110, 110, 110);
   margin-block: 20px;
 }
 
@@ -39,7 +39,7 @@
 
 .intro_text_info {
   font-size: 15px;
-  color: rgb(68, 68, 68);
+  color: rgb(110, 110, 110);
 }
 .intro_text_info ul {
   list-style: inside;

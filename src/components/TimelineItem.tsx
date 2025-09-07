@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import "../css/timelineitem.css";
+import Slideshow from "./Slideshow";
 
 interface TimelineItemProps {
   isExperience: boolean;
@@ -12,7 +13,7 @@ interface TimelineItemProps {
   projectRepoUrl: string;
   projectDemoUrl: string;
   skills: string[];
-  projectImg: string;
+  projectImgs: string[];
 }
 
 const TimelineItem: React.FC<TimelineItemProps> = ({
@@ -26,7 +27,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
   projectRepoUrl,
   projectDemoUrl,
   skills,
-  projectImg,
+  projectImgs,
 }) => {
   return (
     <>
@@ -74,9 +75,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
                   })}
                 </div>
               </div>
-              <div className="project_image_container">
-                <img src={projectImg} alt={`${title}.png`} />
-              </div>
+              <Slideshow images={projectImgs} />
               <p className="project_des">{description}</p>
               <div className="project_links">
                 <a

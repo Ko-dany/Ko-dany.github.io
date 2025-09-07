@@ -23,7 +23,7 @@ const Project: React.FC = () => {
                 projectRepoUrl={project.projectRepoUrl}
                 projectDemoUrl={project.projectDemoUrl}
                 skills={project.skills}
-                projectImg={project.projectImg}
+                projectImgs={project.projectImgs}
               />
             );
           })}
