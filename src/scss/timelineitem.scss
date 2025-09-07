@@ -7,16 +7,16 @@
   position: relative;
   border-left: 1px solid $color-gray;
   .timeline_list_item {
-    margin: 0 0 2.5rem 2rem;
+    margin: 0 0 2rem 2rem;
   }
   .timeline_circle {
     position: absolute;
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 0.5rem;
+    height: 0.5rem;
     background-color: $color-white;
     border-radius: 50%;
     margin-top: 0.375rem;
-    left: -0.34rem;
+    left: -0.25rem;
     border: 1px solid $color-gray;
   }
   .timeline_content {
@@ -32,7 +32,7 @@
       display: flex;
       justify-content: space-between;
       .timeline_title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 600;
         color: $text-point-third;
         margin-block: auto;
@@ -44,7 +44,8 @@
         font-size: 1rem;
       }
       .timeline_duration {
-        margin-block: auto;
+        // margin-block: auto;
+        margin-top: 10px;
         font-size: 0.85rem;
         font-weight: 400;
         line-height: 1;

@@ -1,7 +1,7 @@
 import "../css/project.css";
 import Timeline from "./Timeline";
 
-const About: React.FC = () => {
+const Exeperience: React.FC = () => {
   return (
     <section className="section" id="about">
       <div className="top_header">
@@ -13,4 +13,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default Exeperience;
