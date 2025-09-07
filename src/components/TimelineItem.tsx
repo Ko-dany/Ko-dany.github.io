@@ -78,24 +78,32 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
               <Slideshow images={projectImgs} />
               <p className="project_des">{description}</p>
               <div className="project_links">
-                <a
-                  href={projectRepoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="project_link">
-                    <Icon icon="mdi:github" className="icon" />
-                  </div>
-                </a>
-                <a
-                  href={projectDemoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div className="project_link">
-                    <Icon icon="mdi:open-in-new" className="icon" />
-                  </div>
-                </a>
+                {projectRepoUrl ? (
+                  <a
+                    href={projectRepoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="project_link">
+                      <Icon icon="mdi:github" className="icon" />
+                    </div>
+                  </a>
+                ) : (
+                  ""
+                )}
+                {projectDemoUrl ? (
+                  <a
+                    href={projectDemoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="project_link">
+                      <Icon icon="mdi:open-in-new" className="icon" />
+                    </div>
+                  </a>
+                ) : (
+                  ""
+                )}
               </div>
             </div>
           </li>

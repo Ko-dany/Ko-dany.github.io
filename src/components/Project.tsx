@@ -6,9 +6,8 @@ const Project: React.FC = () => {
   return (
     <section className="section" id="projects">
       <div className="top_header">
-        <h1>Projects</h1>
-        {/* <p>Click the image to visit the GitHub repository.</p> */}
-        <p>This section is currently being fixed</p>
+        <h1>Projects & Contributions</h1>
+        <p>My personal projects and open-source project contributions.</p>
       </div>
       <div className="timeline_container">
         <div className="timeline_item">

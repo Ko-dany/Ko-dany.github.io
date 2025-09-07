@@ -80,14 +80,12 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.timeline_list .timeline_content .timeline_des {
-  font-size: 0.875rem;
-  font-weight: 400;
-  color: rgb(110, 110, 110);
-}
 
 .project_des {
   width: 100%;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #5f5f5f;
 }
 
 .project_links {

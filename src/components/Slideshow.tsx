@@ -54,8 +54,8 @@ const Slideshow: React.FC<{ images: string[] }> = ({ images }) => {
             left: "50%",
             translateX: "-50%",
             translateY: "-50%",
-            maxWidth: "100%",
-            maxHeight: "100%",
+            width: "100%",
+            height: "100%",
             objectFit: "cover",
             borderRadius: "5px",
           }}

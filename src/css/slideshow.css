@@ -5,6 +5,9 @@
   height: 100%;
   min-height: 430px;
 }
+.slideshow-container img {
+  border: 1px solid rgb(151, 151, 151);
+}
 
 .next,
 .prev {
@@ -31,6 +34,7 @@
   font-weight: bold;
   font-size: 28px;
   z-index: 2;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .next {
