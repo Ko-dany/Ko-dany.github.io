@@ -44,7 +44,8 @@ const Footer: React.FC = () => {
         </a>
       </div>
       <div className="bottom_footer">
-        <p>Developed By Dahyun Ko</p>
+        <p>2024 Developed By Dahyun "Dany" Ko</p>
+        <a href="mailto:iamgo910@gmail.com">iamgo910@gmail.com</a>
       </div>
     </footer>
   );

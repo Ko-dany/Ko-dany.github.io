@@ -41,8 +41,13 @@ footer {
 }
 
 .bottom_footer {
+  text-align: center;
   font-size: 14px;
   margin-top: 10px;
+}
+.bottom_footer a {
+  color: rgb(31, 159, 171);
+  font-weight: 600;
 }
 
 /* Mobile */

@@ -24,9 +24,15 @@ footer {
   display: flex;
   gap: 30px;
 }
+
 .bottom_footer {
+  text-align: center;
   font-size: 14px;
   margin-top: 10px;
+  a {
+    color: rgb(31, 159, 171);
+    font-weight: 600;
+  }
 }
 
 /* Mobile */

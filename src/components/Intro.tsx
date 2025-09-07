@@ -47,8 +47,13 @@ const Intro: React.FC = () => {
               </a>
             </li>
             <li>💻 3rd-Year in Computer Programming & Analysis</li>
-
             <li>🚀 DevOps, Test Automation & Apache projects experience</li>
+            <li>
+              📭{" "}
+              <a href="mailto:iamgo910@gmail.com">
+                Email: <strong>iamgo910@gmail.com</strong>
+              </a>
+            </li>
           </ul>
         </div>
         <div className="social_icons">
